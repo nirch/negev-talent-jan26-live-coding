@@ -50,4 +50,9 @@ console.log(typeof x);  // string
 // variables must start with letter or '_' or '$'
 // let 10y;    // error
 
+// NaN
+let w = 6 / 'a';
+console.log(w);
+console.log(typeof w);
+
 
