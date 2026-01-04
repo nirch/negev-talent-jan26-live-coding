@@ -72,3 +72,38 @@ switch (x) {
   case 3:
   default:
 }
+
+
+// ex 6
+
+// const gender = null
+// let profession = "business"
+
+
+// // o "businessman", "businesswoman", or "businessperson" depending on whether gender is "male", "female", or null.
+
+// if (gender === "male") {
+//   profession += "man"
+// } else if (gender === "female") {
+//   profession += "woman"
+// } else if (!gender) {
+//   profession += "person"
+// } 
+
+const gender = null
+let profession = "business"
+
+if (gender != null) {
+
+  if (gender == "male") {
+    console.log(profession + "men")
+
+  }
+  else if (gender == "female") {
+    console.log(profession + "woman")
+
+  }
+}
+else {
+  console.log(profession + "person")
+}

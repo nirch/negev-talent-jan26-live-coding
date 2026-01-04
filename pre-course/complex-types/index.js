@@ -63,3 +63,8 @@ let p3 = {
 
 console.log(p3.age);      // 35
 console.log(p1 === p3);   // false (pointing to a different place in the memory)
+
+// shallow clone
+let p4 = { ...p3 };
+
+console.log(p3 === p4);   // false
