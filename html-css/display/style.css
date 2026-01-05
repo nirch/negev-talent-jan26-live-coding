@@ -1,0 +1,28 @@
+header {
+  border: solid;
+}
+
+span {
+  border: 1px solid green;
+  width: 300px;
+  /* display: inline-block; */
+}
+
+div {
+  padding: 30px;
+  margin: 30px;
+  width: 30%;
+  border: 1px solid red;
+}
+
+img {
+  margin-top: 300px;
+}
+
+div.display-none {
+  display: none;
+}
+
+div.vis-hidden {
+  visibility: hidden;
+}
