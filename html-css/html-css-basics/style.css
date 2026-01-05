@@ -1,7 +1,69 @@
+/* element selector */
 p {
   background-color: yellow;
 }
 
+h2.hello {
+  color: green;
+}
+
+h2 {
+  color: purple;
+}
+
+
+/* h2 {
+  color: purple !important;
+} */
+
+/* class selector - MOST POPULAR */
 .bg-red {
   background-color: red;
+}
+
+.color-aqua {
+  color: aqua;
+}
+
+
+/* and operator - adjacent selectors have "and" meaning  */
+.bg-red.color-aqua {
+  text-align: center;
+}
+
+div.bg-red {}
+
+/* hierarchy selector */
+
+/* select all divs that are a predecessor of header */
+header div {
+  color: purple;
+}
+
+/* select all divs that are direct children of header */
+header>div {
+  background-color: brown;
+
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: black; */
+
+  /* shorthand */
+  border: 1px solid black;
+
+}
+
+main button {
+  background-color: antiquewhite;
+}
+
+/* selector by state/status */
+main button:hover {
+  background-color: lightblue;
+  color: white;
+  cursor: pointer;
+}
+
+li:last-child {
+  font-size: 200%;
 }

@@ -6,19 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
+  <link rel="stylesheet" href="style.css">
+
   <style>
     h2 {
       color: blue;
     }
   </style>
 
-  <link rel="stylesheet" href="style.css">
 </head>
+
+<!-- 
+** Specificity ** 
+1) yellow (inline)
+2) green (selector h2.hello is more specific than h2)
+3) blue (order)
+4) purple 
+-->
+
 
 <body>
   <h1 style="color: red; text-align: center;">Hello Full-Stack AI Course!</h1>
-  <h1 class="bg-red">Another H1</h1>
-  <h2>sub title</h2>
+  <h1 class="bg-red color-aqua">Another H1</h1>
+  <!-- <h2 class="hello">sub title</h2> -->
+  <h2 class="hello" style="color: yellow">sub title</h2>
   <h2>another sub title</h2>
   <p>This is a paragraph. Click <a href="http://www.walla.co.il" target="_blank">here</a></p>
   <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg" alt="Cat Image">
@@ -32,9 +43,32 @@
 
   <p>Another paragraph</p>
 
-  <div class="header"></div>
-  <div class="content"></div>
-  <div class="footer"></div>
+
+  <!-- OLD Way -->
+  <div class="header">div header</div>
+  <div class="content">div content</div>
+  <div class="footer">div footer</div>
+
+  <!-- New way - using sematic tags -->
+  <header>
+    <div class="main-brand">
+      child
+      <div>
+        grand-child
+        <div>
+          grand-grand-child
+        </div>
+      </div>
+    </div>
+    <div class="menu"></div>
+  </header>
+  <main>
+    <div>
+      <button>Hover Me</button>
+    </div>
+  </main>
+  <footer></footer>
+
 
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Phv6qt0tyCY?si=qPSHeIDcQ9AeC6oO"
