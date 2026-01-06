@@ -1,0 +1,33 @@
+div.static {
+  /* position : static; */
+  border: solid red;
+}
+
+div.relative {
+  position: relative;
+  border: solid blue;
+  top: 20px;
+  left: 10px;
+}
+
+div.fixed {
+  position: fixed;
+  border: solid green;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+div.parent {
+  position: relative;
+  margin-top: 50px;
+  height: 400px;
+  border: solid purple;
+}
+
+div.absolute {
+  position: absolute;
+  border: solid orange;
+  bottom: 5px;
+  right: 5px;
+}
