@@ -1,0 +1,15 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  padding: 20px;
+  background-color: #ddd;
+  box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover>.dropdown-content {
+  display: block;
+}
