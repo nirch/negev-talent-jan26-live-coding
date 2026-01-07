@@ -1,0 +1,18 @@
+.row {
+  display: flex;
+}
+
+/* column is flex item */
+.column {
+  width: calc(100% / 3);
+  /* flex: 1; */
+}
+
+
+div.content {
+  border: solid navy;
+  background-color: aqua;
+  text-align: center;
+  padding: 50px 0;
+  margin: 5px;
+}
