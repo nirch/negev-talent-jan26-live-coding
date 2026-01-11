@@ -1,0 +1,51 @@
+header,
+footer,
+nav,
+article,
+aside {
+  border: solid;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Mobile First */
+.col {
+  width: 100%;
+}
+
+/* Tablet */
+@media screen and (min-width: 601px) {
+  .col.nav {
+    width: 25%;
+  }
+
+  .col.article {
+    width: 75%;
+  }
+
+  .col.aside {
+    width: 100%;
+  }
+
+  /* nav {
+    margin-right: 5px;
+  } */
+}
+
+/* Desktop 901px */
+@media screen and (min-width: 901px) {
+  .col.nav {
+    width: 25%;
+  }
+
+  .col.article {
+    width: 50%;
+  }
+
+  .col.aside {
+    width: 25%;
+  }
+}
