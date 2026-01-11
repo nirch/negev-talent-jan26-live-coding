@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  height: 100px;
+  background-color: cyan;
+  border: solid navy;
+  margin: 5px;
+}
+
+/* Mobile First  */
+.col {
+  width: 100%;
+}
+
+/* Tablet */
+@media (min-width: 601px) {
+  .col {
+    width: 50%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 901px) {
+  .col {
+    width: 25%;
+  }
+}
