@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.container {
+  border: solid;
+  height: 200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #eee;
+}
+
+footer {
+  background-color: #eee;
+
+}
