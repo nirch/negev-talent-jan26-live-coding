@@ -1,0 +1,22 @@
+body {
+  background-color: #eee;
+}
+
+a.social {
+  display: inline-block;
+  background-color: blue;
+  border-radius: 50%;
+  width: 25px;
+  padding: 10px;
+}
+
+a.social img {
+  display: block;
+  width: 100%;
+}
+
+a.social svg {
+  display: block;
+  width: 100%;
+  fill: white;
+}
