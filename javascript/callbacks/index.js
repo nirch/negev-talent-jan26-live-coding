@@ -35,4 +35,7 @@ setTimeout(function () {
   console.log("I am an anonymous iniline function sent to setTimeout")
 }, 2000);
 
+
+// setInterval(afterGreeting, 1000);
+
 console.log("End");
