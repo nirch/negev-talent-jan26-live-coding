@@ -64,3 +64,24 @@ function getFullName(fname, lname) {
 let myName = getFullName("Nir", "Channes");
 console.log(myName);
 console.log(getFullName("Nir", "Channes"));
+
+
+// Changing primitive variable value inside a function
+
+let x = 10;
+function changeNumberValue(param1) {
+  param1 = 1;
+}
+changeNumberValue(x);
+console.log(x);             // 10
+
+
+let person = {
+  name: "John Doe",
+  age: 35
+}
+function changePersonrValue(p1) {
+  p1.age = 20;
+  console.log(p1.age);      // 20
+}
+console.log(person.age);    // 35 - WRONG - it is 20
