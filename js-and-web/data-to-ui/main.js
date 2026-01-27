@@ -12,6 +12,15 @@ function refreshShoppingList(shoppingList) {
   for (const item of shoppingList) {
     const li = document.createElement('li');
     li.textContent = item.name;
+    if (item.picked) {
+      li.classList.add('picked');
+    }
+
+    li.addEventListener('click', () => {
+      item.picked = !item.picked;
+      refreshShoppingList(getList());
+    })
+
     ul.appendChild(li);
   }
 }

@@ -12,7 +12,7 @@ const shoppingList = [
   {
     id: "333",
     name: "Bread",
-    picked: false
+    picked: true
   },
 ]
 
