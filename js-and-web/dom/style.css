@@ -9,3 +9,7 @@ img {
 .yellow {
   color: yellow;
 }
+
+.hide {
+  display: none !important;
+}
