@@ -6,6 +6,9 @@ https://codesandbox.io/p/sandbox/rw4rd9
 ## JSX Basics
 https://codesandbox.io/p/sandbox/vds3sj
 
+## Movie App
+https://github.com/nirch/movie-app-negev-talent-jan26
+
 ## Props Basics
 https://codesandbox.io/p/sandbox/z59qs4
 
