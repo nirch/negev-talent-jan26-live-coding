@@ -29,3 +29,9 @@ https://codesandbox.io/p/sandbox/xq8mx8
 
 ## Events in Loops (Closure)
 https://codesandbox.io/p/sandbox/spw62j
+
+## Inputs (aka Controlled Components)
+https://codesandbox.io/p/sandbox/wk5mhj
+
+## State Lifting (aka Component Events)
+https://codesandbox.io/p/devbox/dots-props-forked-4tzhns?workspaceId=ws_GCFXAAkRLVPjMK4aqTRmLH
