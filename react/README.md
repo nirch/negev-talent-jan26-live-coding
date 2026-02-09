@@ -35,3 +35,9 @@ https://codesandbox.io/p/sandbox/wk5mhj
 
 ## State Lifting (aka Component Events)
 https://codesandbox.io/p/devbox/dots-props-forked-4tzhns?workspaceId=ws_GCFXAAkRLVPjMK4aqTRmLH
+
+## useEffect Basics
+https://codesandbox.io/p/sandbox/kcrxws
+
+## useEffect Cleanup (RandomBoxColor)
+https://codesandbox.io/p/sandbox/w6snd5
