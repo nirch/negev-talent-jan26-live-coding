@@ -41,3 +41,7 @@ https://codesandbox.io/p/sandbox/kcrxws
 
 ## useEffect Cleanup (RandomBoxColor)
 https://codesandbox.io/p/sandbox/w6snd5
+
+## useEffect - API Calls
+https://codesandbox.io/p/sandbox/r8nc2p
+
