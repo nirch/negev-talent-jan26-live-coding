@@ -48,4 +48,14 @@ https://codesandbox.io/p/sandbox/r8nc2p
 ## React Router - Basics
 https://codesandbox.io/p/sandbox/ptkgnh
 
+## Prop Drilling - Problem
+https://codesandbox.io/p/sandbox/p44rgl
 
+## Prop Drilling - Context Solution
+https://codesandbox.io/p/devbox/prop-drilling-example-problem-forked-472jhm?workspaceId=ws_GCFXAAkRLVPjMK4aqTRmLH
+
+## React Todos - useState
+https://codesandbox.io/p/sandbox/vmjtsj
+
+## React Todos - Context + useReducer
+https://codesandbox.io/p/devbox/react-todos-usestate-forked-zc49n5?workspaceId=ws_GCFXAAkRLVPjMK4aqTRmLH
